@@ -2,7 +2,7 @@
 
 # 设置各变量
 WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'c664751b-b662-48f9-b2aa-2f0d4d337a7f'}
+UUID=${UUID:-'464e91e8-b26b-400e-969b-1ea05c5dd007'}
 
 # 其他Paas保活
 PAAS1_URL=
@@ -17,8 +17,8 @@ KOYEB_ACCOUNT=
 KOYEB_PASSWORD=
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH=''
-ARGO_DOMAIN=
+ARGO_AUTH='{"AccountTag":"96f9a8680988d5dccd4cdc75438bdc26","TunnelSecret":"AKUph7H9qr7yucBrWkwWsy/Kuc9Ye3p3+Gr7I5aCwVo=","TunnelID":"bfc96b2c-9a44-4e88-83b4-607953d467a8"}'
+ARGO_DOMAIN=carton.bestwords.ga
 
 generate_config() {
   cat > config.json << EOF
